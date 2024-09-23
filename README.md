@@ -18,7 +18,7 @@ cd src/PowerFx
 dotnet publish
 ```
 
-4. Change to Node JS code
+4. Change to Python code and install dependancies
 
 ```
 cd ..
