@@ -15,7 +15,7 @@ cd src/PowerFx
 3. Publish the example Power Fx class
 
 ```bash
-dotnet publish
+dotnet publish -c Release  -r win-x64 --sc
 ```
 
 4. Change to Python code and install dependancies
