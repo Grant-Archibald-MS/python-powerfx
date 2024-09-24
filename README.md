@@ -4,7 +4,7 @@ Example repository to demonstrate how to call PowerFx from python
 
 ## Getting started
 
-1. Ensure .Net 8.0 SDK installed
+1. Ensure NET Core 2.0 or later (including .NET 5 and later) is installed to create a .Net Standard 2.0 binary
 
 2. Change to PowerFx module
 

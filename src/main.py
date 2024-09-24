@@ -4,14 +4,12 @@ import asyncio
 import clr
 from pythonnet import load
 
-# Load CoreCLR
 sys.path.append(os.path.join(os.path.dirname(__file__), 'PowerFx/bin/Release/netstandard2.0/win-x64/publish'))
 
-load("coreclr")
+# Load the .Net Standard 2.0 compatible dll
 clr.AddReference('PowerFx')
 
 from System import Environment
-from System.Threading.Tasks import Task
 from System import Type, Activator
 
 # Initialize the PowerFx class using reflection
